@@ -1,0 +1,91 @@
+    body {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .container {
+        display: flex;
+        flex-flow: column wrap;
+        color: #fff;
+        background-color: #000;
+    }
+    
+
+    .header {
+        width: 100%;
+        height: 80vh;
+        background-image: url(file:///Users/roksaworld/Documents/html/harry-potter/banner.jpeg);
+        background-size: 100% 80vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 3rem;
+        font-weight: 700;
+      }
+      
+    
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-content: space-between;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      width: 100vw;
+      height: 25px;
+      margin: 0;
+    }
+
+    
+    .nav-link {
+        height: 25px;
+        flex-grow: 1;
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        margin 0;
+      }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    .section-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        padding: auto;
+      }
+      
+      .image-container {
+        flex-basis: 50%;
+        margin-right: 20px;
+      }
+      
+      .text-container {
+        flex-basis: 50%;
+        margin-left: 20px;
+      }
+      
+      .image-container img {
+        max-width: 100%;
+      }
+      
+      .reverse .section-content {
+        flex-direction: row-reverse;
+      }
+      
+      
+    .footer {
+      background-color: black;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
